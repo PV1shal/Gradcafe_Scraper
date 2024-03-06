@@ -1,5 +1,3 @@
-from datetime import datetime
-
 from parsers.credential_parser import CredentialParser
 from parsers.program_parser import ProgramParser
 

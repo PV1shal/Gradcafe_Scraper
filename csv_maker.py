@@ -15,6 +15,7 @@ class CsvMaker(object):
             print("Invalid data structure.")
             return
 
+        # print(data_list)
         keys = data_list[0].keys()
 
         with open('gradcafe.csv', 'w', newline='') as output_file:

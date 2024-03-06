@@ -25,11 +25,6 @@ class Parser:
                     'degree': credential_parser.parse_degree(),
                     'decision': credential_parser.parse_status(),
                     'applicant_status': credential_parser.parse_applicant_status(),
-                    # 'comment': comment_parser.parse_comment()
-                    # 'date_added': (
-                    #     datetime.strptime(row.find_all(True, {'class': ['tcol5']})[0].getText(), '%d %b %Y').strftime(
-                    #         '%Y-%m-%d')),
-                    # 'date_of_result': decision_parser.parse_decision_date(),
                 }
                 # parsed_row = {k: self.__parse(v) for k, v in parsed_row.items()}
                 # print(parsed_row)
